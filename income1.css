@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-bottom: 100px;
+}
+.menu{
+    background-color: rgb(10, 8, 116);
+    height:80px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3%;
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+}
+.name{
+    color:white;
+    margin-right: 500px;
+}
+.span{
+    color:red;
+}
+.menu ul{
+    list-style: none;
+    display:flex;
+}
+.menu ul li{
+    padding: 10px 20px;
+    position:relative;
+}
+.menu ul li a{
+    color:red;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+    color:white;
+    text-decoration: underline;
+}
+.down1{
+    display:none;
+}
+.menu ul li:hover .down1{
+    display:block;
+    position:absolute;
+    top:90%;
+    left:0;
+    background-color:rgba(10, 8, 116);
+}
+.down1 ul{
+    display:block;
+    margin: 20px;
+}
+.down1 ul li{
+    width:150px;
+    padding:10px;
+}
+.drop2 {
+    display:none;
+}
+.menu ul li:hover .drop2 {
+    display:block;
+    position:absolute;
+    top:100%;
+    left:0;
+    background-color:rgba(10, 8, 116);
+}
+.drop2 ul{
+    display:block;
+    margin:20px;
+}
+.drop2 ul li{
+    width:200px;
+    padding:10px;
+}
+.drop3{
+    display:none;
+}
+
+.menu ul li:hover .drop3{
+    display:block;
+    position:absolute;
+    top:100%;
+    left:0;
+    background-color: rgba(10, 8, 116);
+}
+.drop3 ul{
+    display:block;
+    margin:20px;
+}
+.drop3 ul li{
+    width:150px;
+    padding:10px;
+}
+.img5{
+    height:710px;
+    width:100%;
+    background-image: url('last.webp');
+    padding-top:10px;
+}
+.hd1{
+    margin-top:100px;
+    margin-left:40px;
+    text-decoration: underline;
+}
+.ut1{
+    font-size: 24px;
+    margin-left: 50px;
+    margin-right: 40px;
+    line-height: 30px;
+}
+.lut1{
+    margin-top:10px;
+    margin-left: 60px;
+    font-size: 24px;
+}
+.foot3{
+    color:white;
+    background-color: black;
+    position: relative;
+    padding-top:10px;
+    height: 100px;
+  }
+  .copy3{
+    padding-left: 600px;
+    font-size: 18px;
+    font-size: 20px;
+  }
+  .foot3 img{
+    border-radius: 10px;
+  }
+  .icons3{
+    width:200px;
+    display: flex;
+    justify-content: space-between;
+    margin-left:650px;
+    padding-bottom: 20px;
+    margin-top:20px;
+  }
+  body{
+    margin-bottom: 0;
+  }
